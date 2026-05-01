@@ -13,6 +13,7 @@ env/
 # Secrets / credentials / local config
 .env
 .env.*
+!.env.example
 *.token
 *_token.json
 .schwab_token.json
