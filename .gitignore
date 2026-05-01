@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets / credentials / local config
+.env
+.env.*
+*.token
+*_token.json
+.schwab_token.json
+creds.txt
+config.toml
+*.jks
+
+# Runtime outputs / logs
+runtime/
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
